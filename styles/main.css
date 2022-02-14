@@ -1,0 +1,28 @@
+/*
+    Media queries
+    Sirven para definir estilos en diferentes dispositivos
+
+*/
+@import url(./about-me.css);
+@import url(./sec2.css);
+@import url(./sec3.css);
+/*Declaramos variables globales*/
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --darkBlue: #310A90;
+    --mycolor: violet;
+    --whitecolor: white; 
+}
+
+body{
+    font-family: var(--fontBase);
+    color: var(--darkBlue);
+}
+.course{
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
+.between{
+    padding: 0.5cm;
+    font-weight: bold;
+}

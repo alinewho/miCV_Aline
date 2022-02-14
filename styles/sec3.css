@@ -1,0 +1,122 @@
+#sec3{
+    padding-top: 3cm;
+    padding-right: 1.5cm;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+.caja{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 55px;
+    color: white;
+    position: static;
+    width: 319px;
+    height: 56px;
+    left: 8px;
+    top: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: flex;
+    background-color: var(--darkBlue);
+    font-weight: bold;
+    margin: 16px 0px;
+   box-shadow:-4px 4px  white;
+ 
+}
+.text1{
+    position: static;
+    width: 449px;
+    height: 78px;
+    left: 0px;
+    top: 80px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;  
+    letter-spacing: 0.005em;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+
+}
+
+.buttonpurple{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 1.25px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+background: #310A90;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+position: static;
+width: 168px;
+height: 49px;
+left: 0px;
+top: 8px;
+border: 2px solid #310A90;
+box-sizing: border-box;
+border-radius: 4px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+.buttontransp{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 1.25px;
+color:var(--darkBlue);
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+background: transparent;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0;
+position: static;
+width: 168px;
+height: 49px;
+left: 0px;
+top: 8px;
+border: 2px solid #310A90;
+box-sizing: border-box;
+border-radius: 4px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+.cajitas{
+    flex-direction: row;
+}
+

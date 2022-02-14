@@ -1,0 +1,140 @@
+/*DESKTOP FIRST*/
+
+#about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+}
+
+
+h1{
+    color: var(--darkBlue);
+    width: 543px;
+    height: 96px;
+    left: 0px;
+    top: 39px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 59px;
+    line-height: 95px;  
+}
+h3{
+    color: var(--darkBlue)
+}
+/*
+    es menor < 
+    600 px/cellphone
+    900 px/tableta
+    1200px/CP
+*/
+
+#btn-cv{
+    background-color: var(--darkBlue);
+    color: var(--whitecolor);
+    font: var(--fontBase);
+    padding: 15px 52px;
+    margin-top: 1cm;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#btn-cv:hover{
+    color: aqua;
+    background-color: var(--whitecolor);
+}
+
+/*Phone Styles*/
+@media screen and (max-width:600px){
+    #about-me{
+        background-color: var(--mycolor);
+    }
+    #nav-bar{
+        display: none;
+    }
+    #btn-cv{
+        display: none;
+    }
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    font-family: var(--fontBase);
+    justify-content: space-between;
+    padding-top: 1cm;
+    font-weight: bold;
+    font-size: 20px;
+}
+.title1{
+    padding: 0.5cm;
+    font-weight: bold;
+    color: var(--darkBlue);
+    height: 23px;
+    width: 42px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+
+}
+.title2{
+    font-family: var(--fontBase);
+    color: var(--whitecolor);
+    font-style:inherit;
+    padding: 0.5cm;
+    font-weight: bold;
+}
+.title3{
+    font-family: var(--fontBase);
+    color: var(--darkBlue);
+    padding: 0.5cm;
+    font-weight:bolder;
+    font-size: 24px;
+    height: 39px;
+    width: 69px;
+    left: 128px;
+    top: 37px;
+    border-radius: nullpx;
+}
+.title2 :hover{
+    color: whitesmoke;
+}
+.myimage{
+    border-radius: 24px;
+    position: absolute;
+    width: 500px;
+    width: 500px;
+    height: 504px;
+    left: 786px;
+    top: 61px;
+
+}
+#titleposition{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 303px;
+    height: 23px;
+    left: 325px;
+    top: 45px;
+}
+.Headline5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;
+}
+.separ{
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+
+}
+.espacio{
+    padding: 0.5cm;
+    font-weight: bold;
+}
